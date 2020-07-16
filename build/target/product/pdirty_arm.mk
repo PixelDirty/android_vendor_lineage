@@ -14,8 +14,8 @@
 
 $(call inherit-product, build/target/product/aosp_arm.mk)
 
-include vendor/lineage/build/target/product/lineage_generic_target.mk
+include vendor/lineage/build/target/product/pdirty_generic_target.mk
 
 TARGET_USES_64_BIT_BINDER := true
 
-PRODUCT_NAME := lineage_arm
+PRODUCT_NAME := pdirty_arm
